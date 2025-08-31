@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Manager</title>
+    <!-- Tailwind -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/5dec5dfc76.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- My CSS -->
+    <link rel="stylesheet" href="portfolio.css">
+    <!-- Google foont -->   
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+     <!-- End Google Font -->
+  </head>
+  <body>
+    <header class="max-w-6xl mx-auto flex items-center justify-between py-4 p-4">
+      <p>Danny</p>
+      <!-- mobile nav -->
+      <nav class="flex justify-between px-3">
+        <ul class="flex justify-between">
+          <li class="block w-full text-left px-3 py-2">
+            <a href="#about">About</a>
+          </li>
+          <li class="block w-full text-left px-3 py-2">
+            <a href="#featured-projects">Projects</a>
+          </li>
+          <li class="block w-full text-left px-3 py-2">
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section
+        id="hero"
+        class="min-h-screen flex items-center justify-center px-4 sm:px-6 pt:16"
+      >
+        <div class="max-w-4xl mx-auto text-center">
+          <div class="space-y-4">
+            <h1 class="text-4xl sm:text-5xl font-medium items-center">
+              Product Manager
+            </h1>
+            <h2 class="text-xl sm:text-2xl lg:text-3xl text-gray-500/50">
+              Turning ideas into impactful products
+            </h2>
+            <p
+              class="text-sm text-muted-foreground max-w-2xl mx-auto text-gray-650"
+            >
+              Hi <span class="pulse">👋🏼</span>, I'm <strong>Danny Gallardo</strong>, a strategic product
+              manager with over a decade of experience building user-centered
+              products that drive business growth and deliver exceptinoal
+              customer experience.
+            </p>
+
+            <p
+              class="text-sm text-muted-foreground max-w-2xl mx-auto text-gray-650"
+            >
+              I'm currently developing my skills in full stack development and
+              python for AI/ML projects.
+            </p>
+          </div>
+
+          <!-- hero ctas -->
+          <div class="flex gap-4 justify-center items-center py-6">
+            <button
+              type="button"
+              class="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
+            >
+              <a href="#about" class=""
+                >View My Work <i class="fas fa-arrow-down ml-2"></i
+              ></a>
+            </button>
+
+            <a href="https://github.com/dannygallardo" target="blank"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/danielgallardo1/"
+              target="blank"
+              ><i class="fa-brands fa-linkedin-in"></i
+            ></a>
+          </div>
+        </div>
+
+        <!-- scroll indicator -->
+        <div
+          class="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce"
+        >
+          <a href="#featured-projects"
+            ><i class="fas fa-chevron-down text-xl text-muted-foreground"></i
+          ></a>
+        </div>
+      </section>
+
+      <!-- about section -->
+      <section id="about" class="py-20 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-6xl mx-auto">
+          <div class="text-center mb-16">
+            <h2 class="text-3xl sm:text-4xl font-medium mb-4">About Me</h2>
+            <p class="text-xl sm:text-2xl lg:text-3xl text-gray-500/50">
+              Passionate about creating products that solve real problems and
+              delight users
+            </p>
+          </div>
+
+          <div
+            class="grid lg:grid-cols-2 gap-12 items-center mb-16 text-center sm:text-left"
+          >
+            <div class="space-y-6">
+              <p class="text-sm leading-relaxed">
+                With over a decade in product management, I've led
+                cross-functional teams to launch products that have served
+                billions of users. My journey spans from early-stage startups to
+                established media tech companies, giving me a unique perspective
+                on building products at different scales.
+              </p>
+
+              <p class="text-sm">
+                I believe great products come from deep user empathy, rigorous
+                data analysis, and seamless collaboration between design,
+                engineering, and business stakeholders. My approach combines
+                strategic thinking with hands-on execution to deliver results
+                that matter.
+              </p>
+            </div>
+
+            <!-- Stats -->
+            <div
+              class="bg-gradient-to-r from-gray-200 to-white rounded-xl text-center p-8"
+            >
+              <div class="grid grid-cols-2 gap-6">
+                <div>
+                  <div class="text-3xl font-medium text-primary">500M+</div>
+                  <div class="text-sm text-muted-foreground">
+                    Users impacted
+                  </div>
+                </div>
+
+                <div>
+                  <div class="text-3xl font-medium text-primary">15+</div>
+                  <div class="text-sm text-muted-foreground">
+                    Products Launched
+                  </div>
+                </div>
+
+                <div>
+                  <div class="text-3xl font-medium text-primary">$200M+</div>
+                  <div class="text-sm text-muted-foreground">
+                    Revenue Generated
+                  </div>
+                </div>
+
+                <div>
+                  <div class="text-3xl font-medium text-primary">10+</div>
+                  <div class="text-sm text-muted-foreground">
+                    Years experience
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- skills section -->
+          <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <!-- card -->
+            <div
+              class="bg-white border border-gray-200 rounded-lg p-6 text-center shadow-sm hover:shadow-lg transition-shadow"
+            >
+              <div
+                class="w-12 h-12 flex items-center justify-center mx-auto mb-4"
+              >
+                <i class="fas fa-users text-xl text-primary"></i>
+              </div>
+              <h3 class="mb-2">User Centric</h3>
+              <p class="text-sm text-gray-500/75 leading-relaxed">
+                Every decision starts with understanding user needs and pain
+                points
+              </p>
+            </div>
+
+            <!-- next card -->
+            <div
+              class="bg-white border border-gray-200 rounded-lg p-6 text-center shadow-sm hover:shadow-lg transition-shadow"
+            >
+              <div
+                class="w-12 h-12 flex items-center justify-center mx-auto mb-4"
+              >
+                <i class="fas fa-chart-bar text-xl text-primary"></i>
+              </div>
+              <h3 class="mb-2">Data Driven</h3>
+              <p class="text-sm text-gray-500/75 leading-relaxed">
+                Leveraging analytics and research to validate assumptions and
+                guide strategy
+              </p>
+            </div>
+            <!-- next card -->
+            <div
+              class="bg-white border border-gray-200 rounded-lg p-6 text-center shadow-sm hover:shadow-lg transition-shadow"
+            >
+              <div
+                class="w-12 h-12 flex items-center justify-center mx-auto mb-4"
+              >
+                <i class="fas fa-chart-line text-xl text-primary"></i>
+              </div>
+              <h3 class="mb-2">Growth-Focused</h3>
+              <p class="text-sm text-gray-500/75 leading-relaxed">
+                Building products that scale and drive meaningful business
+                outcomes.
+              </p>
+            </div>
+
+            <!-- next card -->
+            <div
+              class="bg-white border border-gray-200 rounded-lg p-6 text-center shadow-sm hover:shadow-lg transition-shadow"
+            >
+              <div
+                class="w-12 h-12 flex items-center justify-center mx-auto mb-4"
+              >
+                <i class="fas fa-lightbulb text-xl text-primary"></i>
+              </div>
+              <h3 class="mb-2">Innovation-Minded</h3>
+              <p class="text-sm text-gray-500/75 leading-relaxed">
+                Balancing proven solutions with breakthrough thinking
+              </p>
+            </div>
+            <!-- next card -->
+          </div>
+        </div>
+      </section>
+
+      <!-- projects section -->
+
+      <section id="featured-projects" class="py-20 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-6xl mx-auto">
+          <div class="text-center mb-16">
+            <h2 class="text-3xl sm:text-4xl font-medium mb-4">Featured Projects</h2>
+            <p class="text-xl sm:text-2xl lg:text-3xl text-gray-500/50">
+              Real-world impact through strategic product development
+            </p>
+          </div>
+
+          <!-- Project Cards -->
+           <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- card -->
+            <div
+              class="bg-white border border-gray-200 rounded-lg p-6 text-center shadow-sm hover:shadow-lg transition-shadow jus">
+              <div
+                class="flex items-center justify-center mx-auto mb-4 ">
+                <img src="https://images.unsplash.com/photo-1508317469940-e3de49ba902e?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="rounded-lg">
+              </div>
+              <h3 class="mb-2">Personal Bio Page</h3>
+              <p class="text-sm text-gray-500/75 leading-relaxed">
+                Using HTML and CSS to devlop a personal bio page</p>
+            </div>
+
+            <!-- next card -->
+            <div
+              class="bg-white border border-gray-200 rounded-lg p-6 text-center shadow-sm hover:shadow-lg transition-shadow"
+            >
+              <div
+                class="flex items-center justify-center mx-auto mb-4">
+                <img src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="rounded-lg">
+              </div>
+              <h3 class="mb-2">Styled Landing Page</h3>
+              <p class="text-sm text-gray-500/75 leading-relaxed">
+                Apply CSS fundamentals with responsive layout.
+              </p>
+            </div>
+            <!-- next card -->
+            <div
+              class="bg-white border border-gray-200 rounded-lg p-6 text-center shadow-sm hover:shadow-lg transition-shadow"
+            >
+              <div
+                class="flex items-center justify-center mx-auto mb-4"
+              >
+                <img src="https://images.unsplash.com/photo-1457305237443-44c3d5a30b89?q=80&w=2348&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="rounded-lg">
+              </div>
+              <h3 class="mb-2">Interactive Portfolio Website</h3>
+              <p class="text-sm text-gray-500/75 leading-relaxed">
+                Responsive design with animations and Tailwind.
+              </p>
+            </div>
+      </section>
+
+      <section id="contact">
+        <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+      <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Say Hello 😊</h2>
+      <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">Whether you're looking for a product manager, want to collaborate on an exciting project, or just want to chat about product strategy, I'm always open to interesting conversations.</p>
+      <form action="#" class="space-y-8">
+          <div>
+              <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your email</label>
+              <input type="email" id="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="name@gmail.com" required>
+          </div>
+          <div>
+              <label for="subject" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Subject</label>
+              <input type="text" id="subject" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="Let me know how I can help you" required>
+          </div>
+          <div class="sm:col-span-2">
+              <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Your message</label>
+              <textarea id="message" rows="6" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Leave a comment..."></textarea>
+          </div>
+          <button type="submit" class="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Send message</button>
+      </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="py-16">
+      <p class=" flex justify-center">&copy; 2025 Danny G. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
